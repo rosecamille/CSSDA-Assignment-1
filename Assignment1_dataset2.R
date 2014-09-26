@@ -60,3 +60,15 @@ hist(women$womenBMI,
 ##All women seem to have a normal weight as all BMI observations fall within the range 18.5 - 24.9
 boxplot(women$womenBMI,
         main = 'BMI boxplot')
+      
+      
+#####################
+#Citation of Software
+#####################
+
+citation()
+
+## R Core Team (2014). R: A language and environment for
+## statistical computing. R Foundation for Statistical Computing,
+## Vienna, Austria. URL http://www.R-project.org/.
+
