@@ -35,7 +35,7 @@ hist(CO2$uptake,
 # conc and uptake
 
 plot(CO2$conc, CO2$uptake,
-     main = 'Joint distribution variables',
+     main = 'Scatter Plot conc/uptake',
      xlab = 'Carbon dioxide concentration',
      ylab = 'CO2 uptakes')
 
