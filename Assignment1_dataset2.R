@@ -30,8 +30,12 @@ plot(women$weight, women$height,
      main = 'Joint Distribution of Women weight and height',
      xlab = 'Weight',
      ylab = 'height')
-womenBMI<- 703*women$weight/(women$height*women$height)
-womenBMI
-summary(womenBMI)
-median(womenBMI)
-var(womenBMI)
+women$womenBMI <- (women$weight/(women$height^2))*703
+women$womenBMI
+plot(women$womenBMI, women$weight,
+     main = 'Joint Distribution of Women weight and BMI',
+     xlab = 'BMI',
+     ylab = 'Weight')
+summary(women$womenBMI)
+median(women$womenBMI)
+var(women$womenBMI)
