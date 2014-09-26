@@ -48,6 +48,6 @@ We then descripted the data frame using the commands 'summary' and 'hist'. The h
 
 We then created a variable, 'women$womenBMI'. We used values of height and weight, and the BMI formula (http://goo.gl/4t0cPd) to allocate a value for each observation. We used the commands 'summary', 'median', 'var', and 'sd' for descriptive statistics of the newly created variables and its values. we plot the new variable against height and weight to see the joint distribution.  
 
-We finally used histogram and boxplot to display the distribution of the women's BMI. As it appears from the data, all women (observations) have normal weights relatively to their height, as their BMI falls within the range 18.5 to 24.9 (which is scientifically considered as normal weight).
+We finally used histogram and boxplot to display the distribution of the women's BMI. As it appears, all women (observations) have normal weights relatively to their height, as their BMI falls within the range 18.5 to 24.9 (which is scientifically considered as normal weight).
 
 
