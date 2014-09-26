@@ -10,6 +10,7 @@ Federico Colombo-Ercole - 127672
 
 Rose Camille Vincent - 121288 
 
+NB: The Assignment1_dataset can be used to run the commands for both datasets. 
 
 
 I) Dataset 1: Carbon Dioxide Uptake in Grass Plants
