@@ -44,7 +44,7 @@ We then uploaded our second dataset "women", which contains 15 observations and 
 
 We used the command ?women to explore the description of the dataframe, avaible in R. Followed, we use the commands names(women) and head(women) to explore the dataframe and have a better idea of the different observations (1 to 15) and the two variables (height and weight). 
 
-We used presented some basic descriptive statistics, using the commands 'summary' and 'hist'. The histograms display the frequency of height and weight of the different observations in the dataset (American women aged 30-39).We then plot the variables and the graph shows a strong correlation between height and weight. 
+We then descripted the data frame using the commands 'summary' and 'hist'. The histograms display the frequency of height and weight of the different observations in the dataset (American women aged 30-39).We then plot the variables and the graph shows a strong correlation between height and weight. 
 
 We then created a variable, 'women$womenBMI'. We used values of height and weight, and the BMI formula (http://goo.gl/4t0cPd) to allocate a value for each observation. We used the commands 'summary', 'median', 'var', and 'sd' for descriptive statistics of the newly created variables and its values. we plot the new variable against height and weight to see the joint distribution.  
 
