@@ -1,8 +1,8 @@
 Hertie School of Governance - Fall 2014
-=======================================
+---------------------------------------
 
 Collaborative Social Science Data Analysis- Assignment 1
-========================================================
+--------------------------------------------------------
 
 Learning objectives of the assignment: develop your understanding of file structures, version control, basic R data structures and descriptive statistics.
 
@@ -13,6 +13,7 @@ Rose Camille Vincent - 121288
 
 
 I) Dataset 1: Carbon Dioxide Uptake in Grass Plants
+---------------------------------------------------
 
 First, we uploaded the dataset "C02". The CO2 data frame has 84 rows and 5 columns of data from an experiment on the cold tolerance of the grass species Echinochloa crus-galli.
 
@@ -36,6 +37,7 @@ and to test new commands.
 
 
 II) Dataset 2: Average Heights and Weights for American Women
+--------------------------------------------------------------
 
 We first merged Assignment 1 & Assignment two using the command 'source' in R studio. 
 We then uploaded our second dataset "women", which contains 15 observations and 2 variables. The dataset gives the average heights and weights for American women aged 30–39.
