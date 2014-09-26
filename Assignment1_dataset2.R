@@ -34,6 +34,7 @@ plot(women$weight, women$height,
      main = 'Joint Distribution of Women weight and height',
      xlab = 'Weight',
      ylab = 'height')
+##the plot shows that there is a strong correlation between height and weight
 
 ## creation of a new variable: BMI
 women$womenBMI <- (women$weight/(women$height^2))*703
