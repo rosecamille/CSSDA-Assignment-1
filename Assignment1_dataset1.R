@@ -47,3 +47,14 @@ median(CO2$conc_over_uptake)
 hist(CO2$conc_over_uptake)
 plot(CO2$conc_over_uptake)
 
+#####################
+#Citation of Software
+#####################
+
+citation()
+
+## R Core Team (2014). R: A language and environment for
+## statistical computing. R Foundation for Statistical Computing,
+## Vienna, Austria. URL http://www.R-project.org/.
+
+
