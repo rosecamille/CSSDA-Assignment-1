@@ -13,20 +13,14 @@
 data(CO2)
 
 # We took a look at the data description for 
-# the dataset CO2: variable Plant is an gives an identifier 
-#  value for each single plant; variable Type gives the 
-# origin of the plant, Treatmnet is a dummy variable (chilled, 
-# nonchilled), variable conc indicates the levels of carbon
-# dioxide concentrations and variable uptake indicates the 
-# levels of carbon dioxide uptake rates.
+# the dataset CO2
 ?CO2
 
 # Variables' names and values
 names(CO2)
 head(CO2)
 
-# Exploration of variables: we used the summary function to 
-# obtain an overview of the values/distributions of our variables.
+# Exploration of variables by using the summary function
 summary(CO2$Plant)
 summary(CO2$Treatment)
 summary(CO2$conc)
@@ -45,7 +39,7 @@ plot(CO2$conc, CO2$uptake,
      xlab = 'Carbon dioxide concentration',
      ylab = 'CO2 uptakes')
 
-# We created a new variable called conc_over_uptake, which is simply 
+# We created a new variable called conc_over_uptake, equal to 
 # the ratio between variable conc and variable uptake
 CO2$conc_over_uptake <- CO2$conc/CO2$uptake
 summary(CO2$conc_over_uptake)
