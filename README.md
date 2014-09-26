@@ -6,7 +6,7 @@ Collaborative Social Science Data Analysis- Assignment 1
 
 Learning objectives of the assignment: develop your understanding of file structures, version control, basic R data structures and descriptive statistics.
 
-Federico Colombo- Ertole
+Federico Colombo-Ercole - 127672
 
 Rose Camille Vincent - 121288 
 
