@@ -44,5 +44,6 @@ plot(CO2$conc, CO2$uptake,
 CO2$conc_over_uptake <- CO2$conc/CO2$uptake
 summary(CO2$conc_over_uptake)
 median(CO2$conc_over_uptake)
+hist(CO2$conc_over_uptake)
 plot(CO2$conc_over_uptake)
 
